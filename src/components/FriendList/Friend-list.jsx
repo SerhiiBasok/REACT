@@ -1,4 +1,4 @@
-import "./task-2.scss";
+import "./Friend-list.scss";
 import clsx from "clsx";
 
 const FriendList = ({ friends }) => {

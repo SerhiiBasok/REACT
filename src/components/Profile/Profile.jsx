@@ -1,4 +1,4 @@
-import css from "./task-1.module.css";
+import css from "./Profile.module.css";
 
 const Profile = ({
   name,
@@ -10,11 +10,7 @@ const Profile = ({
   return (
     <div className={css.container}>
       <div className={css.avatar}>
-        <img
-          className={css.image}
-          src="https://cdn-icons-png.flaticon.com/512/2922/2922506.png"
-          alt="User avatar"
-        />
+        <img className={css.image} src={css.avatar} alt="User avatar" />
         <p className={css.name}> {name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>

@@ -1,10 +1,9 @@
-import Profile from "../Task 1/task-1";
-import FriendList from "../Task 2/task-2";
-import TransactionHistory from "../Task 3/task-3";
-import userData from "../userData.json";
-import friendsData from "../friendsData.json";
-import transactionHistory from "../transactionData.json";
-// import css from "./task-1.module.css";
+import Profile from "../Profile/Profile.jsx";
+import FriendList from "../FriendList/Friend-list.jsx";
+import TransactionHistory from "../TransactionHistory/TransactionHistory.jsx";
+import userData from "../UserData.json";
+import friendsData from "../FriendListItem.json";
+import transactionHistory from "../TransactionData.json";
 
 const App = () => {
   return (
