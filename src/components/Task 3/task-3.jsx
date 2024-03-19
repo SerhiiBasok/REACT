@@ -1,8 +1,9 @@
+import css from "./task-3.module.css";
 const TransactionHistory = ({ items }) => {
   return (
     <div>
-      <table>
-        <thead>
+      <table className={css.transactionTable}>
+        <thead className={css.transactionTitle}>
           <tr>
             <th>Type</th>
             <th>Amount</th>

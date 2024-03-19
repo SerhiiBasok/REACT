@@ -1,13 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .container {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 16px;
   border: 2px solid black;
-  border-radius: 10px;
+  background-color: #ebebf0;
+  max-width: 500px;
+  margin: 50px auto;
 }
 
 .avatar {
+  padding: 20px;
 }
-
+img {
+  display: block;
+  max-width: 100%;
+}
+.image {
+  border-radius: 50%;
+  background-color: #2c2b2b;
+  width: 200px;
+  margin: 0 auto 30px;
+}
+.name {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+.tag {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.location {
+  text-align: center;
+  font-size: 32px;
+  color: grey;
+}
 .list {
+  display: flex;
+  background-color: #35333334;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  font-size: 32px;
+  padding: 0 20px;
+  text-align: center;
+  align-items: center;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.infolist {
+  margin-right: 20px;
+}
+.element:not(:last-child) {
+  border-right: 2px solid black;
 }
 
-.element {
+.element span {
+  margin-right: 20px;
 }

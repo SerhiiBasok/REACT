@@ -1,7 +1,30 @@
+.app-container {
+}
+.friendList {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+.friendElem {
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 30px;
+}
+.friendImg {
+  margin-bottom: 20px;
+}
+.friendName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
 .online {
+  font-family: Arial, Helvetica, sans-serif;
   color: green;
 }
 
 .offline {
+  font-family: Arial, Helvetica, sans-serif;
   color: red;
 }

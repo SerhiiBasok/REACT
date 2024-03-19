@@ -1,0 +1,44 @@
+table {
+  text-indent: 0;
+  border-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+}
+
+th,
+td {
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.transactionTable {
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto 50px;
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 8px;
+}
+
+.transactionTitle {
+  background-color: #3a3939;
+  color: #fff;
+}
+
+tr:nth-child(even):not(:first-child) {
+  background-color: #dddddd;
+}
