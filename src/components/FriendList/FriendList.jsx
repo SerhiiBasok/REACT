@@ -1,4 +1,4 @@
-import "./Friend-list.scss";
+import "./FriendList.scss";
 import clsx from "clsx";
 
 const FriendList = ({ friends }) => {
