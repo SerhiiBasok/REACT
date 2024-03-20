@@ -10,7 +10,7 @@ const Profile = ({
   return (
     <div className={css.container}>
       <div className={css.avatar}>
-        <img className={css.image} src={css.avatar} alt="Photo:{name}" />
+        <img className={css.image} src={css.avatar} alt={name} />
         <p className={css.name}> {name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
