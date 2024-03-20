@@ -1,7 +1,7 @@
-import "./FriendList.scss";
+import "./FriendListItem.scss";
 import clsx from "clsx";
 
-const FriendList = ({ friends }) => {
+const FriendListItem = ({ friends }) => {
   return (
     <div className="app-container">
       <ul className="friendList">
@@ -29,4 +29,4 @@ const FriendList = ({ friends }) => {
   );
 };
 
-export default FriendList;
+export default FriendListItem;
